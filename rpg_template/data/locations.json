@@ -1,0 +1,20 @@
+{
+    "northshire_abbey": {
+        "name": "Northshire Abbey",
+        "description": "A beacon of hope in the tranquil Northshire Valley, the Abbey is where new adventurers begin their journey. The air is calm, and monks can be seen practicing their martial arts.",
+        "exits": {
+            "south": "elwynn_forest_road"
+        },
+        "npcs": [],
+        "items": []
+    },
+    "elwynn_forest_road": {
+        "name": "Road in Elwynn Forest",
+        "description": "A dusty road winding through the lush Elwynn Forest. To the north, you see Northshire Abbey.",
+        "exits": {
+            "north": "northshire_abbey"
+        },
+        "npcs": [],
+        "items": []
+    }
+}
